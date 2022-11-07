@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <!-- head contains information about the page -->
+    <head>
+        <title>Intro to HTML</title>
+        <meta charset="utf-8" />
+        <meta name="author" content="Keffrey"/>
+        <meta name="description" content="A small intro to HTML" />
+
+        <link rel="icon" href="favicon.png" type="image/x-icon" />
+        <link rel="stylesheet" href="index.css" />
+    </head>
+
+    <!-- body usually contains content that is displayed on the page -->
+    <body>
+        
+        <h1> Programming Languages </h1>
+
+        <h2 class="app-header"> Web Languages </h2>
+
+        <p>The web has been built primarily with JavaScript,<br> but it has been organized using HTML</p>
+
+        <ol type="1">
+           <li>JavaScript</li>
+           <li>HTML</li>
+           <li>CSS</li> 
+        </ol>
+
+        <h2 class="app-header">Mobile Languages</h2>
+
+        <p>Mobile apps can vary; whether on iOS or Android</p>
+
+        <ul>
+            <li>Kotlin</li>
+            <li>Swift</li>
+            <li>Dart</li>
+            <li>C#</li>
+        </ul>
+
+
+        <table>
+            <!-- heading row -->
+            <tr>
+                <th>#</th>
+                <th>Language</th>
+                <th>Usage</th>
+            </tr>
+            <!-- first row -->
+            <tr>
+                <td>1</td>
+                <td>Kotlin</td>
+                <td>Android Apps</td>
+            </tr>
+            <!-- second row -->
+            <tr>
+                <td>2</td>
+                <td>JavaScript</td>
+                <td>Web Apps</td>
+            </tr>
+        </table>
+
+        <form action="./contact.html" method="GET">
+
+            <label for="name">NAME</label>
+            <input type="text" id="name" name="nameY" placeholder="Enter your name"/>
+
+            <label  for="email">EMAIL</label>
+            <input type="email" id="email" name="emailY" placeholder="Enter your email"/>
+
+            <label for="password">PASSWORD</label>
+            <input type="password" id="password" name="passwordY" placeholder="Enter your password" />
+
+            <label for="checkbox">Agree to terms?</label>
+            <input type="checkbox" id="checkbox" name="checkboxY"/>
+
+            <input type="submit" id="submit" name="submit" value="Submit Form"/>
+
+        </form>
+
+        <button>CLICK ME!</button>
+        
+        <!-- link to mozilla -->
+        <a href="https://developer.mozilla.org/" target="_blank" id="mozilla_anchor">Go to mozilla</a>
+
+        <!-- link to contact page -->
+        <a href="pages/contact.html"> CONTACT US </a>
+
+        <img src="nairobi.jpg" alt="Photo of nairobi" width="250" height="200" id="nairobi_image" />
+
+
+        <style>
+            input[type=text] {
+                transition: width 20s ease-in-out;
+            }
+
+            input[type=text]:focus{
+                width: 100%;
+            }
+
+        </style>
+
+    </body>
+
+</html>
