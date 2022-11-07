@@ -3,8 +3,8 @@ p {
     font-size: 2rem;
 }
 
-html {
-    background-color: blanchedalmond;
+body {
+    color: brown;
     padding: 55px 40px 0px 20px;
 }
 
@@ -16,7 +16,18 @@ html {
     font-style: italic;
     font-size: 50px;
     font-family: monospace;
-    color: darkblue;
+}
+
+.app-header {
+    font-style: bold;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+h2 {
+    font-style: bold;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 table, td, th {
@@ -31,4 +42,21 @@ th {
 
 table {
     margin: 5%;
+}
+
+.app-list, .app-paragraph{
+    color: cornflowerblue;
+}
+
+a[href="https://developer.mozilla.org/"]{
+   background-color: beige; 
+   color: black;
+   padding: 15px 20px;
+   text-decoration: none;
+   border-radius: 5px;
+   box-shadow: inset;
+}
+
+.xyz {
+    color: darkkhaki;
 }
